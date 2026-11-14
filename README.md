@@ -21,3 +21,13 @@ Open index.html in a browser, or run `python3 -m http.server 8000` from this dir
 - Responsive layout and text contrast references: [W3C reflow](https://www.w3.org/WAI/WCAG21/Understanding/reflow) and [W3C contrast](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
 - Hosting reference: [cPanel File Manager](https://docs.cpanel.net/cpanel/files/file-manager/110/).
 - Instrument Serif and Inter are self-hosted. Their OFL texts are in assets/.
+
+## Deploy with cPanel Git Version Control
+
+In cPanel, open Git Version Control and create a clone of
+https://github.com/alitareq25/matareq.git outside public_html, for example at
+repositories/matareq. Open Manage → Pull or Deploy, select Update from Remote
+when new commits are available, and then select Deploy HEAD Commit.
+
+The deployment writes the site files into the main domain's public_html.
+It preserves existing .htaccess and leaves unrelated files in place.
