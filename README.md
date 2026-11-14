@@ -1,10 +1,10 @@
 # Mohammad Ali Tareq · Academic portfolio
 
-A static portfolio for matareq.com. The HTML contains the profile, research, publications and teaching content. Styles and local fonts are in assets/. The small script adds the publication topic filters.
+A static portfolio for matareq.com. Each page is served from its directory’s index.html, with a shared navigation and footer design. Styles and local fonts are in assets/. The small script adds the publication topic filters.
 
 ## Preview locally
 
-Open index.html in a browser, or run `python3 -m http.server 8000` from this directory and open http://localhost:8000/.
+Run `python3 -m http.server 8000` from this directory and open http://localhost:8000/.
 
 ## Upload with cPanel
 
@@ -20,7 +20,7 @@ Open index.html in a browser, or run `python3 -m http.server 8000` from this dir
 - Academic portfolio reference sites: [Aswath Damodaran](https://pages.stern.nyu.edu/adamodar/New_Home_Page/home.htm) and [John H. Cochrane](https://johncochrane.sites.stanford.edu/).
 - Responsive layout and text contrast references: [W3C reflow](https://www.w3.org/WAI/WCAG21/Understanding/reflow) and [W3C contrast](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
 - Hosting reference: [cPanel File Manager](https://docs.cpanel.net/cpanel/files/file-manager/110/).
-- Instrument Serif and Inter are self-hosted. Their OFL texts are in assets/.
+- DM Sans is self-hosted. Its OFL text is in assets/.
 
 ## Deploy with cPanel Git Version Control
 
