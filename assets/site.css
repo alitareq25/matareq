@@ -151,3 +151,25 @@ footer h2 { font-size: clamp(1.7rem, 3.6vw, 2.75rem); }
 .brand .brand-title { margin-inline-start: .75rem; padding-inline-start: .75rem; border-inline-start: 1px solid var(--line); color: var(--muted); font: 600 .76rem/1.25 var(--sans); white-space: normal; }
 @media (min-width: 601px) and (max-width: 960px) { .site-header { flex-wrap: wrap; padding-block: .75rem; } }
 @media (max-width: 350px) { .brand .brand-title { margin-inline-start: .5rem; padding-inline-start: .5rem; } }
+.cv-catalog { color: #202720; }
+.catalog-links { display: flex; flex-wrap: wrap; gap: .55rem; list-style: none; margin: 1.5rem 0 2.5rem; padding: 0; }
+.catalog-links a { display: inline-flex; align-items: center; gap: .35em; min-height: 44px; padding: .4rem .75rem; border: 1px solid #a6aa9e; }
+.catalog-links a:hover { background: #e9ebe1; }
+.catalog-group { margin: 2.5rem 0; scroll-margin-top: 1rem; }
+.catalog-group h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); }
+.citation-list, .grant-list { margin: 1rem 0 0; padding: 0; }
+.citation-list li, .grant-list li { border-top: 1px solid var(--line); padding: .85rem 0; }
+.citation-list { padding-inline-start: 1.6rem; }
+.citation-list li { padding-inline-start: .4rem; }
+.doi-link { white-space: nowrap; display: inline-block; color: #415547; font-weight: 700; margin-inline-start: .35em; }
+.grant-list { list-style: none; }
+.grant-list li { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: .4rem 1.2rem; }
+.grant-list h3 { font-size: 1.15rem; }
+.grant-list p { margin: .35rem 0 0; }
+.grant-period { font-size: .9rem; font-variant-numeric: tabular-nums; }
+.grant-amount { font-weight: 700; }
+@media (max-width: 540px) { .grant-list li { grid-template-columns: 1fr; } }
+
+.catalog-search label { display: block; font-weight: 700; }
+.catalog-search input { width: min(100%, 28rem); min-height: 44px; padding: .5rem .75rem; border: 1px solid #747b71; background: #fffdf7; color: #202720; font: inherit; }
+.catalog-search [role="status"] { margin: .4rem 0; }
