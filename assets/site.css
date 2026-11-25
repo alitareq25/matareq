@@ -173,3 +173,11 @@ footer h2 { font-size: clamp(1.7rem, 3.6vw, 2.75rem); }
 .catalog-search label { display: block; font-weight: 700; }
 .catalog-search input { width: min(100%, 28rem); min-height: 44px; padding: .5rem .75rem; border: 1px solid #747b71; background: #fffdf7; color: #202720; font: inherit; }
 .catalog-search [role="status"] { margin: .4rem 0; }
+
+/* Allow the expanded navigation to wrap above page content. */
+.site-header { flex-wrap: wrap; padding-block: 1rem; }
+.site-header nav { flex: 1 1 100%; column-gap: clamp(.8rem, 2vw, 1.7rem); }
+.collection-page { min-height: 48vh; }
+.collection-page .page-title { max-width: 20ch; }
+.collection-empty { margin-top: 2rem; padding-block: 1.5rem; border-top: 1px solid var(--line); }
+.collection-empty p { margin: 0; color: var(--muted); max-width: 55ch; }

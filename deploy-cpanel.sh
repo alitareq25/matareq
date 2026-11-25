@@ -12,7 +12,7 @@ if [[ ! -e "$document_root/.htaccess" && ! -L "$document_root/.htaccess" ]]; the
 fi
 /bin/mkdir -p -- "$document_root/assets"
 /bin/cp -R -- assets/. "$document_root/assets/"
-for page in research publications teaching profile leadership awards contact; do
+for page in research publications teaching profile leadership awards documents-and-reports gallery contact; do
   /bin/mkdir -p -- "$document_root/$page"
   /bin/cp -- "$page/index.html" "$document_root/$page/index.html"
 done
